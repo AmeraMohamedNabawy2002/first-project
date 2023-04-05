@@ -1,0 +1,1214 @@
+
+.body{
+  height: 4000px;
+}
+.div2{
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/WhatsApp\ Image\ 2023-04-02\ at\ 21.02.58.jpeg");
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ .overley{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+     background-color: rgba(77, 63, 63, 0.7);
+    top: 0;
+    left: 0;
+ } 
+ .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 60%;
+    height: 200px;
+ }
+ .content h2{
+    font-size: 50px;
+    color: white;
+    margin-top: 50px;
+    font-style: italic;
+ }
+ .content p{
+    color:white;
+    font-size:20px ;
+    margin: 20px 30px;
+    font-style: italic;
+    text-transform: capitalize;
+ }
+ .btn1{
+    color:black;
+    background-color:palevioletred;
+    width: 135px;
+    height: 50px;
+    border-radius: 5px;
+    border: 5px solid grey;
+ }
+
+ .btn2{
+    color: white;
+    background-color:rgb(226, 179, 195);
+    width: 135px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 100px;
+    border: 5px solid grey;
+ }
+ .btn1:hover{
+    background-color: rgb(77, 77, 185);
+ }
+ .btn2:hover{
+    background-color: rgb(201, 176, 176);
+ }
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(224, 121, 155);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.img1{
+    width: 80px;
+    height: 50px;
+    margin-left: 80px;
+    float: left;
+}
+.list1{
+    float: right;
+    
+}
+.list1 li{
+    list-style: none;
+    display: inline;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 30px;
+    color: rgb(148, 11, 11);
+}
+.list1 li a{
+    color: brown;
+    text-decoration: underline;
+}
+.h11{
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    color: brown;
+}
+.div112{
+    width: 100px;
+    height: 3px;
+    background-color: brown;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.website{
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    background-color: rgb(211, 79, 123);
+}
+.fully1{
+    width: 30%;
+    height: 295px;
+    float: left;
+    border: 5px solid rgb(173, 156, 156);
+    position: relative;
+}
+.fully2{
+    width: 30%;
+    height: 295px;
+    float: left;
+    margin-left: 40px; 
+    border: 5px solid rgb(165, 152, 152);
+    position: relative;
+}
+.fully3{
+    width: 30%;
+    height: 295px;
+    float: left;
+    margin-left: 40px;
+    border: 5px solid rgb(161, 146, 146);
+    position: relative;
+}
+.a1{
+    font-size: 30px;
+    color: rgb(78, 140, 197);
+    display: block;
+    margin-left: 40%;
+    margin-top: 30px;
+}
+.cust{
+ text-align: center;
+ font-style: italic;
+}
+.cust2{
+    text-align: center;
+}
+.cust3{
+    margin-left: 40%;
+    color: rgb(196, 210, 223);
+    border: none;
+    background-color: rgb(179, 25, 76);
+    height: 50px;
+}
+.fully1:after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    opacity: 0;
+}
+.fully1:hover::after{
+    opacity: 0.5;
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+}
+.cust:hover{
+    color: white;
+}
+.fully2:after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+}
+.fully2:hover::after{
+    opacity: 0.5;
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+}
+.fully3:after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+}
+.fully3:hover::after{
+    opacity: 0.5;
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+}
+.bosition{
+    margin-top: 230px;
+}
+.works{
+    width: 100%;
+    height: 1400px;
+    background-color: rgb(233, 154, 180);
+}
+.works1{
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    color: rgb(219, 86, 71);
+}
+.works2{
+    width: 70px;
+    height: 3px;
+    background-color: rgb(216, 35, 35);
+    margin: auto;
+}
+.works3{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: brown;
+}
+.worksin{
+    width: 30%;
+    height: 400px;
+    border: 5px solid rgb(197, 184, 184); 
+    float: left;
+    position: relative;
+    background-color: white;
+}
+.worksin:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:black;
+    opacity: 0;
+}
+.worksin:hover::after{
+   opacity: 0.6;
+   transition: 0.5s;
+    width: 100%;
+    height: 100%;
+}
+.worksin2{
+    width: 30%;
+    height: 400px;
+    border: 5px solid rgb(197, 184, 184); 
+    margin-left: 30px;
+    float: left;
+    position: relative;
+    background-color: white;
+}
+.worksin2:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:black;
+    opacity: 0;
+}
+.worksin2:hover::after{
+   opacity: 0.6;
+   transition: 0.5s;
+    width: 100%;
+    height: 100%;
+}
+.workin3{
+    width: 30%;
+    height: 400px;
+    border: 5px solid rgb(197, 184, 184); 
+    float: left;
+    position: relative;
+    background-color: white;
+    margin-left: 30px;
+}
+.workin3:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:black;
+    opacity: 0;
+}
+.workin3:hover::after{
+   opacity: 0.6;
+   transition: 0.5s;
+    width: 100%;
+    height: 100%;
+}
+.featured{
+    margin-top: 180px;
+}
+.featured1{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    margin-top: 20px; 
+    background-color: brown;
+}
+.featured2{
+    width: 30%;
+    height: 400px;
+    border: 5px solid rgb(197, 184, 184); 
+    float: left;
+    position: relative;
+    background-color: white;
+}
+.featured2:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:black;
+    opacity: 0;
+}
+.featured2:hover::after{
+   opacity: 0.6;
+   transition: 0.5s;
+    width: 100%;
+    height: 100%;
+}
+.featured3{
+    width: 30%;
+    height: 400px;
+    border: 5px solid rgb(197, 184, 184); 
+    float: left;
+    position: relative;
+    background-color: white;
+    margin-left: 30px;
+}
+.featured3:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:black;
+    opacity: 0;
+}
+.featured3:hover::after{
+   opacity: 0.6;
+   transition: 0.5s;
+    width: 100%;
+    height: 100%;
+}
+.featured4{
+    width: 30%;
+    height: 400px;
+    border: 5px solid rgb(197, 184, 184); 
+    float: left;
+    position: relative;
+    background-color:white;
+    margin-left: 30px;
+}
+.featured4:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:black;
+    opacity: 0;
+}
+.featured4:hover::after{
+   opacity: 0.6;
+   transition: 0.5s;
+    width: 100%;
+    height: 100%;
+}
+.workin1{
+    width: 70%;
+    height: 400px;
+    background-color: aqua;
+    margin: auto;
+    position: relative;
+}
+.workin4{
+   position: absolute;
+   text-align: center;
+   margin-top:60px;
+   margin-left: 40px;
+   color: white;
+   z-index: 2;
+   visibility: hidden;
+}
+.featured4:hover .workin4{
+    visibility: visible;
+}
+.featured3:hover .workin4{
+    visibility: visible;
+}
+.featured2:hover .workin4{
+    visibility: visible;
+}
+.worksin:hover .workin4{
+    visibility: visible;
+}
+.worksin2:hover .workin4{
+    visibility: visible;
+}
+.workin3:hover .workin4{
+    visibility: visible;
+}
+.image{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+   margin-right: 40px;
+}
+.offer{
+    text-align: center;
+    font-style: italic;
+    color: brown;
+}
+.offer1{
+    width: 70px;
+    height: 3px;
+    background-color: rgb(165, 103, 162);
+    margin: auto;
+}
+.offer2{
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    background-color: rgb(175, 102, 114);
+}
+.offer12{
+    width: 30%;
+    height: 200px;
+    background-color: antiquewhite;
+    float: left;
+    position: relative;
+    margin-left: 10px;
+}
+.graphic{
+    width: 30%;
+    height: 200px;
+    background-color: antiquewhite;
+    float: left;
+    margin-left: 60px;
+    position: relative;
+}
+.creative{
+    width: 30%;
+    height: 200px;
+    background-color: antiquewhite;
+    float: left;
+    margin-left: 60px; 
+    position: relative;
+}
+.marketing{
+    width: 30%;
+    height: 200px;
+    background-color: antiquewhite;
+    float: left;
+    margin-top: 20px;
+    position: relative;
+    margin-left: 10px;
+}
+.awesome{
+    width: 30%;
+    height: 200px;
+    background-color: antiquewhite;
+    float: left;
+    margin-left: 60px;
+    margin-top: 20px;
+    position: relative;
+}
+.brand{
+    width: 30%;
+    height: 200px;
+    background-color: antiquewhite;
+    float: left;
+    margin-left: 60px;
+    margin-top: 20px;
+    position: relative;
+}
+.iuniversity{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+.appdevelopment{
+    float: left;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 7px;
+}
+.app1{
+    text-align: center;
+    float: left;
+}
+.offer12:after{
+position: absolute;
+content: "";
+width: 0;
+height: 0;
+top: 0;
+left: 0;
+background-color: black;
+opacity: 0;
+}
+.offer12:hover::after{
+    opacity: 0.5;
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+}
+.graphic:after{
+    position: absolute;
+content: "";
+width: 0;
+height: 0;
+top: 0;
+left: 0;
+background-color: black;
+opacity: 0;
+}
+.graphic:hover::after{
+    opacity: 0.5;
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+}
+.creative:after{
+ position: absolute;
+content: "";
+width: 0;
+height: 0;
+top: 0;
+left: 0;
+background-color: black;
+opacity: 0;
+}
+.creative:hover::after{
+    opacity: 0.5;
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+}
+.marketing:after{
+    position: absolute;
+   content: "";
+   width: 0;
+   height: 0;
+   top: 0;
+   left: 0;
+   background-color: black;
+   opacity: 0;
+   }
+   .marketing:hover::after{
+       opacity: 0.5;
+       transition: 0.5s;
+       width: 100%;
+       height: 100%;
+   }
+   .awesome:after{
+    position: absolute;
+   content: "";
+   width: 0;
+   height: 0;
+   top: 0;
+   left: 0;
+   background-color: black;
+   opacity: 0;
+   }
+   .awesome:hover::after{
+       opacity: 0.5;
+       transition: 0.5s;
+       width: 100%;
+       height: 100%;
+   }
+   .brand:after{
+    position: absolute;
+   content: "";
+   width: 0;
+   height: 0;
+   top: 0;
+   left: 0;
+   background-color: black;
+   opacity: 0;
+   }
+   .brand:hover::after{
+       opacity: 0.5;
+       transition: 0.5s;
+       width: 100%;
+       height: 100%;
+   }
+   .choose{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(233, 186, 201);
+    margin: auto;
+   }
+   .us{
+    width: 50%;
+    height: 700px;
+    float: left;
+   }
+   .choose1{
+    padding-left: 100px;
+    padding-top: 100px;
+   }
+   .choose2{
+    width: 70px;
+    height: 3px;
+    background-color: blue;
+    margin-left: 100px;
+   }
+.choose3{
+    padding-left:100px;
+    font-size: 30px;
+    font-style: italic;
+}
+.choose4{
+    margin-left: 100px;
+}
+.choose5{
+    width: 400px;
+    height: 380px;
+    background-color: azure;
+    float: left;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+.chose{
+    width: 300px;
+    height: 380px;
+    padding-left: 50px;
+}
+.circle1{ 
+    margin-right: 100px;
+}
+.many_icon{
+ width: 100%;
+ height: 65vh;
+ background-image: url("../images/istockphoto-1224449206-612x612.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+}
+.overlay1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+     background-color: rgba(88, 81, 81, 0.5);
+    top: 0;
+    left: 0;
+}
+.icon_ketter{
+    width: 80%;
+    height:400px;
+    margin: auto;
+    margin-top: 70px;
+}
+.icon_ketter1{
+    width: 20%;
+    height: 250px;
+    float: left;
+    margin-top: 55px;
+}
+.people1{
+    font-size: 60px;
+    padding-left: 80px;
+    color: rgb(214, 103, 140);
+}
+.client{
+    text-align: center;
+    font-style: italic;
+    color: rgb(216, 171, 171);
+}
+.icon_ketter2{
+    width: 20%;
+    height: 250px;
+    float: left;
+    margin-left: 45px;
+    margin-top: 55px;
+}
+.icon_ketter3{
+    width: 20%;
+    height: 250px;
+    float: left;
+    margin-left: 45px;
+    margin-top: 55px;
+}
+.icon_ketter4{
+    width: 20%;
+    height: 250px;
+    float: left;
+    margin-left: 45px;
+    margin-top: 55px;
+}
+.pricee{
+    margin-top: 400px;
+}
+.eman{
+    text-align: center;
+    font-size: 67px;
+    font-style: italic;
+    color: rgb(204, 36, 36);
+}
+.asma{
+    width: 200px;
+    height: 2px;
+    background-color: rgb(196, 120, 120);
+    margin: auto;
+    margin-bottom: 20px;
+}
+.sera{
+    height: 350px;
+    width: 360px;
+    border: 20 solid rgb(168, 43, 43);
+    background-color: rgb(231, 137, 137);
+    margin-top: 70px;
+    float: left;
+    position: relative;
+}
+.div4{
+    height: 350px;
+    width: 360px;
+    border: 20 solid rgb(190, 70, 70);
+    background-color: rgb(231, 137, 137) ;
+    margin-top: 70px;
+    float: left;
+    margin-left: 190px;
+    margin-right: 50px;
+    position: relative;
+}
+.div5{
+    height: 350px;
+    width: 360px;
+    border: 20 solid rgb(190, 70, 70);
+    background-color: rgb(231, 137, 137) ;
+    margin-top: 70px;
+    float: left;
+    margin-left: 180px;
+  position: relative;
+}
+.P1{
+    text-align: center;
+}
+.P2{
+    text-align: center;
+}
+.P3{
+    text-align: center;
+}
+.dolar{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 5px solid rgb(184, 172, 172);
+    margin: auto;
+    text-align: center;
+}
+.para{
+    text-align: center;
+    position: relative;
+}
+.btn1{
+    height: 30px;
+    width: 150px;
+    margin-left: 115px;
+    border: 2px solid rgb(31, 31, 133);
+    color:blue;
+    font-style: italic;
+}
+.para:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+}
+.para:hover::after{
+    opacity: 0.5;
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+}
+.div4:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+}
+.div4:hover::after{
+    opacity: 0.5;
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+}
+
+.div5:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+}
+.div5:hover::after{
+    opacity: 0.5;
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+}
+.sera:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+}
+.sera:hover::after{
+    opacity: 0.5;
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+}
+.defination{
+    width: 100%;
+    height: 60vh;
+    background-image: url("../images/WhatsApp\ Image\ 2023-04-02\ at\ 21.02.05.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 700px;
+    position: relative;
+}
+.overlay2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(88, 81, 81, 0.7);
+    top: 0;
+    left: 0;
+}
+.defination1{
+    width: 80%;
+    height: 70%;
+    margin-top: 80px;
+    margin-left: 100px;
+    float: left;
+}
+.defination2{
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+.defination3{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 20px;
+    float: left;
+}
+.cccc{
+    width: 50px;
+    height: 100px;
+    padding-left: 30px;
+   padding-top: 5px;
+    background-size: cover;
+}
+.web{
+ margin-left: 10px;
+ float: left;
+ width:550px;
+ height: 50px;
+ font-style: italic;
+}
+.tem{
+    text-align: center;
+    font-style: italic;
+    color: rgb(216, 35, 95);
+}
+.temee{
+    width: 150px;
+    height: 2px;
+    background-color:rgb(218, 121, 153);
+    margin: auto; 
+}
+.team{
+    width: 80%;
+    height: 400px;
+    margin-left: 190px;
+    margin-top: 30px;
+    float: left;
+}
+.team1{
+    width: 30%;
+    height:400px ;
+    background-color: rgb(218, 157, 77);
+    float: left;
+    position: relative;
+}
+.team2{
+    width: 337px;
+    height:320px;
+    padding-right: 100px;
+}
+.tee{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: rgb(215, 226, 215);
+    visibility: hidden;
+    opacity: 0;
+}
+.team1:hover .tee{
+   visibility: visible;
+   opacity: 0.8;
+}
+.team3:hover .tee{
+    visibility: visible;
+    opacity: 0.8;
+}
+.team4:hover .tee{
+    visibility: visible;
+    opacity: 0.8;
+}
+.tee a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(51, 111, 151);
+    color: white;
+    margin-left: auto;
+}
+.tee1{
+    width: 20px;
+    height: 33px;
+    margin-left: 17px;
+}
+.tee a i{
+    line-height:50px;
+}
+.teee{
+    width: 90%;
+    height: 330px;
+    margin: auto;
+    position: relative;
+}
+.te1{
+    text-align: center;
+    font-style: italic;
+    color: rgb(192, 49, 97);
+}
+.team3{
+    float: left;
+    width: 30%;
+    height:400px;
+    background-color: rgb(218, 157, 77);
+    margin-left: 30px;
+    position: relative;
+}
+.team4{
+    float: left;
+    width: 30%;
+    height:400px ;
+    background-color: rgb(218, 157, 77);
+    position: relative;
+    margin-left: 30px; 
+}
+.team2:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+}
+.team2:hover::after{
+    opacity: 0.3;
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+}
+.team1:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+}
+.team1:hover::after{
+    opacity: 0.5;
+    transition: 2s;
+    width: 100%;
+    height: 100%;
+}
+.team3:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+}
+.team3:hover::after{
+    opacity: 0.5;
+    transition: 2s;
+    width: 100%;
+    height: 100%;
+}
+.team4:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+}
+.team4:hover::after{
+    opacity: 0.5;
+    transition: 2s;
+    width: 100%;
+    height: 100%;
+}
+.recent{
+    width: 95%;
+    height: 700px;
+    margin: auto;
+    margin-top: 500px;
+    background-color: rgb(243, 215, 219);
+}
+.recent4{
+    text-align: center;
+    font-style: italic;
+    color: rgb(189, 89, 106);
+}
+.recent5{
+    width: 100px;
+    height: 2px;
+    background-color: rgb(168, 101, 101);
+    margin: auto;  
+}
+.recent1{
+    width: 30%;
+    height:600px;
+    background-color:rgb(185, 114, 138);
+    float: left;
+    position: relative;
+    margin-left: 10px;
+}
+.news{
+    width: 330px;
+    height:300px ;
+    padding-left:25px;
+}
+.news1{
+    text-align: center;
+    font-style: italic;
+}
+.news2{
+    font-size: 30px;
+}
+.news3{
+    width: 100px;
+    height:50px ;
+    color: rgb(190, 21, 77);
+    font-size: 20px;
+    margin-left: 150px;
+    background-color: rgb(221, 170, 187);
+}
+.recent2{
+    width: 30%;
+    height:600px;
+    background-color:rgb(185, 114, 138) ;
+    float: left;
+    margin-left: 60px;
+    position: relative;
+}
+.recent3{
+    width: 30%;
+    height:600px;
+    background-color: rgb(185, 114, 138);
+    float: left;
+    margin-left: 60px;
+    position: relative;
+} 
+.recent1:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+}
+.recent1:hover::after{
+    opacity: 0.6;
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+}
+.recent2:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+}
+.recent2:hover::after{
+    opacity: 0.6;
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+}
+.recent3:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+}
+.recent3:hover::after{
+    opacity: 0.6;
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+}
+.last_section{
+    background-image: url("../images/WhatsApp\ Image\ 2023-04-02\ at\ 21.05.06.jpeg");
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section{
+    width: 200px;
+    height: 100px;
+    margin-left: 650px;
+    margin-top: 40px;
+}
+.section2{
+    width:470px;
+    height: 80px;
+    border-radius: 50%;
+    margin: auto;
+    font-size: 30px;
+    color:white;
+}
+.section3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(0, 119, 255);
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.section4{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
